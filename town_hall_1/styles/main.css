@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+html {
+	background-color: white;
+}
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +37,7 @@ header{
 
 /* the styles for the header */
 header h2 {
-    font-size: 170%;
+    font-size: 175%;
     color: #800000;
     
 }
@@ -193,6 +196,12 @@ aside {
     padding-bottom: 20px;
 }
 
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
 aside h3 {
     font-size: 105%;
     padding-bottom: .25ems;
@@ -213,6 +222,10 @@ footer p {
     color: white;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+#mobile_menu {
+	display: none;
 }
 
 @media only screen and (max-width: 959px) {
